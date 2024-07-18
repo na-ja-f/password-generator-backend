@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: false }))
 
 app.use(
     cors({
-        origin: '*',
+        origin: 'https://randompass-lemon.vercel.app',
         methods: "GET,HEAD,POST,DELETE",
         credentials: true,
     })
